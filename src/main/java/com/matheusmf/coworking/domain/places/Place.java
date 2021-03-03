@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Getter
-@Setter
 public class Place {
 
     private String name;
@@ -15,10 +14,13 @@ public class Place {
     private Email email;
     private List<Phone> phones = new ArrayList<>();
 
-    public Place(String name, Address address, Email email) {
+    public Place(String name, Email email) {
         this.name = name;
-        this.address = address;
         this.email = email;
+    }
+
+    public void setAddress(String country, String state, String city, String street, String complement) {
+        this.address = new Address(country, state, city, street, complement);
     }
 
     public void addPhone(String ddd, String number) {
