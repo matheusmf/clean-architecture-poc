@@ -9,8 +9,8 @@ public class PlaceBuilder {
         return this;
     }
 
-    public PlaceBuilder withAddress(String country, String state, String city, String street, String complement) {
-        this.place.setAddress(country, state, city, street, complement);
+    public PlaceBuilder withAddress(String country, String state, String city, String district, String street, String complement) {
+        this.place.setAddress(country, state, city, district, street, complement);
         return this;
     }
 

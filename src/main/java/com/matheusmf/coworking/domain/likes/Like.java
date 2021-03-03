@@ -1,5 +1,6 @@
-package com.matheusmf.coworking.domain.places;
+package com.matheusmf.coworking.domain.likes;
 
+import com.matheusmf.coworking.domain.places.Place;
 import lombok.Getter;
 import lombok.Setter;
 

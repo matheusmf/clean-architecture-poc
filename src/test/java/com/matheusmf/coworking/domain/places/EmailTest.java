@@ -1,4 +1,4 @@
-package com.matheusmf.coworking.domain;
+package com.matheusmf.coworking.domain.places;
 
 import com.matheusmf.coworking.domain.places.Email;
 import org.junit.jupiter.api.Test;

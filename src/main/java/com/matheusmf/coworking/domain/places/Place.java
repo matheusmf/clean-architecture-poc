@@ -1,17 +1,18 @@
 package com.matheusmf.coworking.domain.places;
 
 import lombok.Getter;
-import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
 public class Place {
 
+    @Getter
     private String name;
+    @Getter
     private Address address;
     private Email email;
+    @Getter
     private List<Phone> phones = new ArrayList<>();
 
     public Place(String name, Email email) {
@@ -19,12 +20,16 @@ public class Place {
         this.email = email;
     }
 
-    public void setAddress(String country, String state, String city, String street, String complement) {
-        this.address = new Address(country, state, city, street, complement);
+    public void setAddress(String country, String state, String city, String district, String street, String complement) {
+        this.address = new Address(country, state, city, district, street, complement);
     }
 
     public void addPhone(String ddd, String number) {
         this.phones.add(new Phone(ddd, number));
+    }
+
+    public String getEmail() {
+        return email.getAddress();
     }
 
 }
