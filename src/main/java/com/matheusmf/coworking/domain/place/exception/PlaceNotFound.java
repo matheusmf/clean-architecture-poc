@@ -1,4 +1,4 @@
-package com.matheusmf.coworking.domain.places.exceptions;
+package com.matheusmf.coworking.domain.place.exception;
 
 public class PlaceNotFound extends RuntimeException {
 

@@ -1,8 +1,7 @@
-package com.matheusmf.coworking.domain.likes;
+package com.matheusmf.coworking.domain.like.model;
 
-import com.matheusmf.coworking.domain.places.Place;
+import com.matheusmf.coworking.domain.place.model.Place;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.time.LocalDateTime;
 

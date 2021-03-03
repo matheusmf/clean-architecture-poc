@@ -1,6 +1,6 @@
-package com.matheusmf.coworking.domain.places;
+package com.matheusmf.coworking.domain.place;
 
-import com.matheusmf.coworking.domain.places.Email;
+import com.matheusmf.coworking.domain.place.model.Email;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

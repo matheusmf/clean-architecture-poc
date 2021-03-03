@@ -1,4 +1,6 @@
-package com.matheusmf.coworking.domain.places;
+package com.matheusmf.coworking.domain.place;
+
+import com.matheusmf.coworking.domain.place.model.Place;
 
 import java.util.List;
 

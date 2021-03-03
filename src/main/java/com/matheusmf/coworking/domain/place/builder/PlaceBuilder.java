@@ -1,4 +1,7 @@
-package com.matheusmf.coworking.domain.places;
+package com.matheusmf.coworking.domain.place.builder;
+
+import com.matheusmf.coworking.domain.place.model.Email;
+import com.matheusmf.coworking.domain.place.model.Place;
 
 public class PlaceBuilder {
 

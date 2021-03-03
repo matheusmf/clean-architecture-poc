@@ -1,4 +1,4 @@
-package com.matheusmf.coworking.domain.places;
+package com.matheusmf.coworking.domain.place.model;
 
 import lombok.Getter;
 
