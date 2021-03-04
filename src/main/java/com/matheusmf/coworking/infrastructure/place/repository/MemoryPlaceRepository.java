@@ -1,8 +1,8 @@
 package com.matheusmf.coworking.infrastructure.place.repository;
 
-import com.matheusmf.coworking.domain.place.model.Place;
 import com.matheusmf.coworking.domain.place.PlaceRepository;
 import com.matheusmf.coworking.domain.place.exception.PlaceNotFound;
+import com.matheusmf.coworking.domain.place.model.Place;
 
 import java.util.ArrayList;
 import java.util.List;
